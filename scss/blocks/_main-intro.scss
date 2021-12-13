@@ -1,0 +1,46 @@
+.main-intro{
+margin-bottom: 160px;
+
+
+
+
+    .main-intro__list{
+        width: 1110px;
+        margin-top: 160px;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .main-intro__items{
+        width: 350px;
+        margin-right: 30px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .main-intro__img{
+        text-align: center;
+    }
+    .main-intro__head{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 5px;
+        color: #333136;
+    }
+    .main-intro__desc{
+        font-family: 'Jost' sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        text-align: center;
+
+        color: #333136;
+    }
+}

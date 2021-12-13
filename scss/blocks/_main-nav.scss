@@ -1,0 +1,54 @@
+.main-nav{
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    .main-nav__container{
+        display: flex;
+    }
+
+    .main-nav__web-design{
+        width: 541px;
+        height: 640px;
+        padding: 273px 136px;
+        background-image: url(../../images/Bitmap.png);
+        margin-right: 30px;
+    }
+
+    .webdesign-box{
+        width: 268px;
+    }
+    .main-nav__head{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    .main-nav__desc{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .main-nav__app-design{
+        width: 541px;
+        height: 308px;
+        padding: 107px 143px;
+        background-image: url(../../images/Bitmap1.png);
+        margin-bottom: 24px;
+    }
+    .main-nav__graphig-design{
+        width: 541px;
+        height: 308px;
+        padding: 107px 143px;
+        background-image: url(../../images/Group2.png);
+    }
+}

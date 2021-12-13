@@ -1,0 +1,83 @@
+.web-main{
+    .web-hero{
+        padding: 0px 40px;
+    }
+
+
+    .web-hero__container{
+        background-image: url(../../images/about-hero.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 160px;
+    }
+
+    .web-main__box{
+        padding: 64px 191px;
+    }
+    .web-hero__head{
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+    .web-hero__desc{
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+.web-proccess{
+    .proccess-list{
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        margin-bottom: 32px;
+        .proccess-item{
+            width: 350px;
+            margin-right: 30px;
+            background: #E7816B;
+            border-radius: 15px;
+            text-decoration: none;
+        list-style-type: none;
+
+        }
+    }
+    .proccess__head{
+        font-family: 'Jost' sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 5px;
+        color: #FFFFFF;
+
+    }
+    .proccess__desc{
+        font-family: 'Jost';
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+@media only screen and (max-width: 768px){
+
+    .web-hero{
+        .web-hero__container{
+            width: 100%;
+            max-width: 768px;
+            background-image: url("../../images/web-container.png");
+            background-size: 689px 252px;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .web-main__box{
+            padding: 64px 0px;
+        }
+
+
+    }
+}

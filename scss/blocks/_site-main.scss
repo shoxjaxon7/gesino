@@ -1,0 +1,40 @@
+.site-main{
+    margin: 0 auto;
+    padding: 64px 155px;
+
+
+
+    .award__container{
+        width: 100%;
+        max-width: 1151px;
+        background-image: url(../../images/Group64.png);
+        background-size: cover;
+        background-position: top center;
+        padding: 145px 95px;
+        margin-bottom: 104px;
+    }
+
+
+    .award__box{
+        width: 540px;
+    }
+
+    .award-box__head{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+
+    .award-box__desc{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 11px;
+        color: #FFFFFF;
+    }
+}

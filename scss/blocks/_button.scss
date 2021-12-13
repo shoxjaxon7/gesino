@@ -1,0 +1,17 @@
+.button{
+    width: 152px;
+    height: 56px;
+    margin-top: 40px;
+    padding: 18px 25px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+
+
+}
+.button:hover{
+    opacity: 0.8;
+}
+.button:active{
+    opacity: 0.5;
+}

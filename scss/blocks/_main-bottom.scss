@@ -1,0 +1,32 @@
+.main-bottom{
+
+    .main-bottom__box{
+        position: absolute;
+        width: 1111px;
+        height: 292px;
+        background: #E7816B;
+        border-radius: 15px;
+        background-image: url(../../images/Group31.png);
+        background-size:  contain;
+        padding: 72px 95px 46px;
+    }
+    .main-bottom__small{
+        width: 459px;
+    }
+    .main-bottom__head{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+    .main-bottom__desc{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}
